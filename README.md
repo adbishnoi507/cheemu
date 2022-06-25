@@ -62,7 +62,6 @@ Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe 
 ```
 https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 https://github.com/clhuang/heroku-buildpack-webp-binaries.git
-https://github.com/DuckyTeam/heroku-buildpack-imagemagick
 heroku/nodejs
 ```
 
@@ -92,7 +91,6 @@ pkg install git -y
 pkg install nodejs -y 
 pkg install ffmpeg -y 
 pkg install wget
-pkg install imagemagick -y
 git clone https://github.com/adbishnoi507/cheemu
 cd CheemsBot-MD2
 npm start
@@ -103,7 +101,6 @@ apt install nodejs
 apt install git 
 apt apt install ffmpeg 
 apt apt install libwebp 
-apt apt install imagemagick
 apt install bash
 git clone https://github.com/adbishnoi507/cheemu
 cd CheemsBot-MD2
